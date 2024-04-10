@@ -30,6 +30,8 @@ max_year = df['Year'].max()
 
 app = Dash(__name__)
 
+server = app.server
+
 colors = {
     'background': "#F4BB44",
     'background2': '#FFE033',
