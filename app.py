@@ -11,8 +11,7 @@ from dash.dependencies import Input, Output
 ### Load Data and Get Variables ###
 ###################################
 
-data_dir = '''/Users/kevincory/Documents/Graduate Classes/\
-6289 - DB Mgmt Using Python/Project/Analysis/'''
+data_dir = 'Data/'
 data_fname = 'happiness_regression_data.csv'
 df = pd.read_csv(data_dir + data_fname, index_col = 0)
 df = df.rename(columns = {'HappinessIndex': 'Happiness Score'})
