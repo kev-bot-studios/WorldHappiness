@@ -1,0 +1,9 @@
+CREATE INDEX idx_country ON world_happiness_1.full_report_2023(Country);
+CREATE INDEX idx_country ON world_happiness_1.full_report_2022(Country);
+CREATE INDEX idx_country ON world_happiness_1.full_report_2021(Country);
+CREATE INDEX idx_country ON world_happiness_1.full_report_2020(Country);
+CREATE INDEX idx_country ON world_happiness_1.full_report_2019(Country);
+CREATE INDEX idx_country ON world_happiness_1.full_report_2018(Country);
+CREATE INDEX idx_country ON world_happiness_1.full_report_2017(Country);
+CREATE INDEX idx_country ON world_happiness_1.full_report_2016(Country);
+CREATE INDEX idx_country ON world_happiness_1.full_report_2015(Country);
