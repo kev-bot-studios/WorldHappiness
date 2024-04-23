@@ -7,3 +7,4 @@ CREATE INDEX idx_country ON world_happiness_1.full_report_2018(Country);
 CREATE INDEX idx_country ON world_happiness_1.full_report_2017(Country);
 CREATE INDEX idx_country ON world_happiness_1.full_report_2016(Country);
 CREATE INDEX idx_country ON world_happiness_1.full_report_2015(Country);
+CREATE INDEX idx_pollutionrank ON world_pollution_1.full_report_2023(pRank);
